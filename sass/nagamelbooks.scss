@@ -1,0 +1,64 @@
+@import './bootstrap-variables';
+@import './bootstrap/stylesheets/bootstrap';
+
+$genericons-font-path: "../assets/genericons";
+@import './genericons/genericons';
+
+$fa-font-path: "../assets/font-awesome/fonts";
+@import './font-awesome/scss/font-awesome';
+
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+*{
+    box-sizing: border-box;   
+}
+
+    body{
+        font-family: 'Noto Sans Japanese', serif;
+        font-size: 16px;
+    }
+
+    /* Main */
+
+    .header-logo{
+        background-color: #bdddbd;
+        float: left;
+        img{
+            width: 100px;
+            height: auto;
+            padding: 10px;
+        }
+    }
+
+    .btn{
+        border-radius: 20px;   
+    }
+
+.copyright{
+    text-align: center;
+    color: #fff;
+}
+
+.single{
+    .entry__content{
+        p{
+            margin-bottom: 2em;;   
+        }
+    }
+}
+    
+.bookfield{
+    margin: 2em auto;
+    background-color: #e8e8e8;
+    padding: 2em;
+    ul{
+        margin: 0;  
+        padding: 0;
+    }
+    li{
+        font-size: 18px;   
+        list-style-position: inside;
+    }
+}
