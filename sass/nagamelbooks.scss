@@ -1,0 +1,34 @@
+@import './bootstrap-variables';
+@import './bootstrap/stylesheets/bootstrap';
+
+$genericons-font-path: "../assets/genericons";
+@import './genericons/genericons';
+
+$fa-font-path: "../assets/font-awesome/fonts";
+@import './font-awesome/scss/font-awesome';
+
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+
+    body{
+        font-family: 'Noto Sans Japanese', serif;
+    }
+
+    /* Main */
+
+    .header-logo{
+        background-color: #bdddbd;
+        float: left;
+        img{
+            width: 100px;
+            height: auto;
+            padding: 10px;
+        }
+    }
+
+    .btn{
+        border-radius: 20px;   
+    }
+    
